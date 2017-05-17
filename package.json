@@ -1,0 +1,16 @@
+{
+  "name": "webhook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/mongoose": "^4.7.12",
+    "github-webhook-handler": "^0.6.0",
+    "koa": "^2.2.0",
+    "mongoose": "^4.9.9",
+    "nodegit": "^0.18.3"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.39"
+  }
+}
