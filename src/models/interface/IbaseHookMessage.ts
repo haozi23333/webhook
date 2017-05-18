@@ -25,8 +25,6 @@ export interface IbaseHookMessage{
     watchers_count: number,
     stargazers_count: number,
     language: string,
-    ssh_url: string,
-
 
 }
 

@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
     "target": "es5",
-    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": [
+      "es7",
+      "es6"
+    ],
+    "noImplicitAny": true,
     "outDir": "./lib",
-    "types": [],
-    "allowJs": true
+    "types": ["node"]
   },
   "include": [
     "./src"
@@ -13,5 +17,5 @@
   "exclude": [
     "node_modules",
     "lib"
-    ]
+  ]
 }

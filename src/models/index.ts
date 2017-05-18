@@ -3,8 +3,10 @@
  */
 
 import {Commit} from './commit'
+import {Push} from './push'
 
 
 export {
-    Commit
+    Commit,
+    Push
 }
