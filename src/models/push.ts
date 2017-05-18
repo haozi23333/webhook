@@ -6,6 +6,7 @@ import {IPush} from "./interface/IPush"
 
 interface IPushModel extends IPush, mongoose.Document {}
 
+/* tslint:disable */
 const pushSchema =  new mongoose.Schema({
     ref: String,
     head: String,
@@ -53,17 +54,17 @@ const pushSchema =  new mongoose.Schema({
         git_url: String,
         ssh_url: String,
         clone_url: String,
-        homepage: null,
+        homepage: String,
         size: Number,
         stargazers_count: Number,
         watchers_count: Number,
-        language: null,
+        language: String,
         has_issues: Boolean,
         has_downloads: Boolean,
         has_wiki: Boolean,
         has_pages: Boolean,
         forks_count: Number,
-        mirror_url: null,
+        mirror_url: String,
         open_issues_count: Number,
         forks: Number,
         open_issues: Number,
@@ -75,5 +76,6 @@ const pushSchema =  new mongoose.Schema({
 const Push = mongoose.model<IPushModel>("Push", pushSchema)
 
 export {
-    Push
+    Push,
+    IPushModel
 }

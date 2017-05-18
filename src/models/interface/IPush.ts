@@ -9,8 +9,8 @@ export interface IPush {
     ref: string,
     head: string,
     before: string,
-    size: boolean,
-    distinct_size: boolean,
+    size: number,
+    distinct_size: number,
     commits: Icommit[],
     repository: IRepository
 }

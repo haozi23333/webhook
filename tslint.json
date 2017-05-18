@@ -65,16 +65,6 @@
     "no-bitwise": true,
     "no-conditional-assignment": true,
     "no-consecutive-blank-lines": true,
-    "no-console": {
-      "options": [
-        "debug",
-        "info",
-        "log",
-        "time",
-        "timeEnd",
-        "trace"
-      ]
-    },
     "no-construct": true,
     "no-debugger": true,
     "no-duplicate-super": true,

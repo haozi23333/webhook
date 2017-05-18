@@ -28,7 +28,6 @@ export interface IbaseHookMessage{
 
 }
 
-
 export interface Ihook {
     type: string,
     id: number,
@@ -40,7 +39,6 @@ export interface Ihook {
     url: string,
     ping_url: string
 }
-
 
 export interface Irepository {
     id: number,
@@ -68,4 +66,3 @@ export interface IrepositoryOwner {
     type: string,
     site_admin: boolean
 }
-

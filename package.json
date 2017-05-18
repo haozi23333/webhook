@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "tsc && node app.js"
+  },
   "dependencies": {
+    "@types/mongodb": "^2.2.2",
+    "bluebird": "^3.5.0",
     "github-webhook-handler": "^0.6.0",
     "koa": "^2.2.0",
+    "mongodb": "^2.2.26",
     "mongoose": "^4.9.9",
     "nodegit": "^0.18.3"
   },
   "devDependencies": {
-    "@types/mongoose": "^4.7.12",
-    "@types/koa": "^2.0.39"
+    "@types/koa": "^2.0.39",
+    "@types/mongoose": "^4.7.12"
   }
 }
